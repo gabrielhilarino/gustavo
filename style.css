@@ -46,6 +46,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 
 }
 
@@ -88,6 +89,9 @@ h2{
 font-size: 56px;
 line-height: 10px;
 font-family: Epilogue;
+}
+#textocurso{
+    color: #F01E04;
 }
 span{
 
@@ -143,14 +147,14 @@ form{
 
 }
 .banner2 > img {
-    width: 450px;
+    width: 468px;
     height: 70vh;
-    margin-right: -6px;
+    margin-right: -5px;
    
 
 }
 .banner2{
-    margin-left: -8px;
+    margin-left: -65px;
     
 }
 #whats{
@@ -158,11 +162,15 @@ form{
     height: 40px;
 }
 #linknumber{
-    color: #241A1C;
+    
+    color:#F01E04;
 }
 video{
     float: right;
     margin-top: -594px;
+}
+#page2{
+background-color: #241A1C;
 }
 @media screen and (min-width: 300px) and (max-width: 844px){
 
