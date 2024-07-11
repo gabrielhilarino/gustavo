@@ -241,4 +241,9 @@ video{
 #linknumber{
     margin-left: 20vh;
 }
+#saiba{
+    border: 2px solid #241A1C;
+    padding: 5px;
+    border-radius: 20px;
+}
 }
