@@ -2,11 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .caveira{
     width: 200px;
 }
@@ -32,6 +28,13 @@ a:hover{
     }
 ul{
     list-style: none;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+    font-family: Teko;
+    font-size: 25px;
+
 }
 
 nav{
@@ -63,8 +66,179 @@ ul{
     background-position: center;
     background-color: #241A1C;
     height: 60vh;
+    margin-left: -9px;
+    margin-right: -9px;
 }
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#saiba{
+    border: 2px solid #241A1C;
+    padding: 10px;
+    border-radius: 20px;
+}
+#saiba:hover{
+    color:white;
+    background-color: #241A1C;
+}
+h2{
+font-size: 56px;
+line-height: 10px;
+font-family: Epilogue;
+}
+span{
+
+    color: #241A1C;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family:Epilogue;
+}
+/*Configurando formulario*/
+form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+  }
+  input{
+      margin-top: 20px;
+      height: 20px;
+      padding: 15px;
+      border-radius: 20px;
+      border: none;
+      font-size: 15px;
+  }
+  form [type="submit"]{
+      height: 50px;
+      width: 50%;
+      background-color: #241A1C;
+      color: white;
+      font-weight: bold;
+  }
+  form [type="submit"]:hover{
+      cursor: pointer;
+  }
+#imagemgusta{
+    float: right;
+    height: 590px;
+    width: 600px;
+    border-radius: 30px;
+    border:solid #241A1C;
+    margin-top: 9px;
+ 
+    
+}
+#hero2{
+    
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
 
 
+}
+.banner2 > img {
+    width: 450px;
+    height: 70vh;
+    margin-right: -6px;
+   
 
+}
+.banner2{
+    margin-left: -8px;
+    
+}
+#whats{
+    width: 40px;
+    height: 40px;
+}
+#linknumber{
+    color: #241A1C;
+}
+video{
+    float: right;
+    margin-top: -594px;
+}
+@media screen and (min-width: 300px) and (max-width: 844px){
 
+    ul{
+       display: flex;
+       flex-direction: row;
+        margin: 2px;
+        gap: 0.005rem;
+
+    }
+    li{
+        display: inline;
+        font-family: Teko;
+        font-size: 17.8px;
+       
+    }
+  
+    nav{
+        padding: 1rem;
+        /*configurando a nav do header deixando alinhado com row*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: -66px;
+        margin-right: -100px;
+        
+    }
+    #imagemgusta{
+        height: 500px;
+        width: 400px;
+        border-radius: 30px;
+        border:solid #241A1C;
+        margin-top: 9px;
+        margin-right: 25px;
+        margin-bottom: 20px;
+     
+        
+    }
+    h2{
+        font-size: 30px;
+        line-height: 10px;
+        font-family: Epilogue;
+    }
+    input{
+        width: 400px;
+    }
+    .banner2 > img {
+        width: 243px;
+        height: 50vh;
+        margin-right: -8px;
+    
+    }
+    #imagem3{
+        display: none;
+    }
+
+    .banner2{
+        margin-left: -8px;
+        
+        
+    }
+    video{
+        width: 475px;
+        height: 400px;
+        margin-top: 2px;
+        
+    }
+   h2{
+    text-align: center;
+   }
+   form [type="submit"]{
+    margin-left: 30vh;
+    
+}
+#linknumber{
+    margin-left: 20vh;
+}
+}
