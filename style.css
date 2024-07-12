@@ -184,7 +184,7 @@ background-color: #241A1C;
     li{
         display: inline;
         font-family: Teko;
-        font-size: 17.8px;
+        font-size: 16px;
        
     }
   
@@ -201,12 +201,13 @@ background-color: #241A1C;
     }
     #imagemgusta{
         height: 500px;
-        width: 400px;
+        width: 350px;
         border-radius: 30px;
         border:solid #241A1C;
         margin-top: 9px;
-        margin-right: 25px;
         margin-bottom: 20px;
+        margin-right: -30px;
+        
      
         
     }
@@ -214,6 +215,12 @@ background-color: #241A1C;
         font-size: 30px;
         line-height: 10px;
         font-family: Epilogue;
+        text-align: justify;
+        margin-right: -50px;
+    }
+    p{
+        text-align: center;
+        margin-right: -50px;
     }
     input{
         width: 400px;
@@ -223,6 +230,10 @@ background-color: #241A1C;
         height: 50vh;
         margin-right: -8px;
     
+    }
+    /*aqui em baixo configuração do banner da pagina01*/
+    .hero{
+        width: 450px;
     }
     #imagem3{
         display: none;
@@ -243,7 +254,9 @@ background-color: #241A1C;
     text-align: center;
    }
    form [type="submit"]{
-    margin-left: 30vh;
+    margin-left: 25vh;
+    font-size: 18px;
+    width: 90px;
     
 }
 #linknumber{
