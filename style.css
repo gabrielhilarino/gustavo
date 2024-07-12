@@ -225,29 +225,33 @@ background-color: #241A1C;
     input{
         width: 400px;
     }
-    .banner2 > img {
-        width: 243px;
-        height: 50vh;
-        margin-right: -8px;
-    
+
+    /*Banner da pagina 2 saiba mais */
+    .hero2{
+        background-image: url(imagens/IMG_4155-fotor-bg-remover-20240618204848.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        height: 60vh;
+        width: 461px;
+        margin-left: -9px;
+        margin-right: -9px;
     }
+
     /*aqui em baixo configuração do banner da pagina01*/
     .hero{
         width: 450px;
     }
-    #imagem3{
+    #imagem3,#imagem2,#imagem1{
         display: none;
     }
 
-    .banner2{
-        margin-left: -8px;
-        
-        
-    }
+
     video{
-        width: 475px;
+        width: 445px;
         height: 400px;
         margin-top: 2px;
+        margin-right: -80px;
         
     }
    h2{
@@ -260,7 +264,8 @@ background-color: #241A1C;
     
 }
 #linknumber{
-    margin-left: 20vh;
+    margin-left: 15vh;
+    font-size: 16px;
 }
 #saiba{
     border: 2px solid #241A1C;
