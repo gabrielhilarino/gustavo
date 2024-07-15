@@ -62,14 +62,38 @@ ul{
 }
 
 .hero{
-    background-image: url(imagens/IMG_4155-fotor-bg-remover-20240618204848.png);
+   background-image: url(imagens/IMG_4155-fotor-bg-remover-20240618204848.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-color: #241A1C;
     height: 60vh;
     margin-left: -9px;
     margin-right: -9px;
+    text-align: center;
 }
+
+#h2banner1{
+    
+    font-size: 30px;
+    line-height: 40px;
+    font-family: Epilogue;
+    color: #F01E04;
+    padding: 1rem;
+    margin-left: 60px;
+    
+}
+#conteudo-banner{
+    
+    line-height: 30px;
+    font-size: 20px ;
+    max-width: 500px;
+    font-family:Epilogue;
+    padding: 2rem;
+    margin-top: -45px;
+    margin-left: 60px;
+}
+
+  
 .hero2{
     background-image: url(imagens/IMG_4155-fotor-bg-remover-20240618204848.png);
     background-repeat: no-repeat;
@@ -226,8 +250,11 @@ background-color: #241A1C;
     }
 
     /*aqui em baixo configuração do banner da pagina01*/
+  
     .hero{
-        width: 480px;
+        width: 530px;
+        background-position: center;
+
     }
 
 
@@ -255,6 +282,28 @@ background-color: #241A1C;
     border: 2px solid #241A1C;
     padding: 5px;
     border-radius: 20px;
+}
+
+#h2banner1{
+    
+    font-size: 20px;
+    line-height: 40px;
+    font-family: Epilogue;
+    color: #F01E04;
+    padding: 1rem;
+    margin-left: -40px;
+    
+    
+}
+#conteudo-banner{
+    
+    line-height: 40px;
+    font-size: 18px ;
+    max-width: 500px;
+    font-family:Epilogue;
+    padding: 2rem;
+    margin-top: -20px;
+    margin-left: -40px;
 }
 }
 @media screen and (min-width: 900px) and (max-width: 1024px){
