@@ -261,9 +261,11 @@ a:hover{
     input{
       width: 40vh;
       text-align: center;
+      margin-left: 10px;
     }
     form [type="submit"]{
        width: 40vh;
+       margin-left: 10px;
        
     }
     .hero2{
