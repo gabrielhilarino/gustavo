@@ -38,7 +38,7 @@ li{
 }
 
 nav{
-    max-width: 1120px;
+ 
     margin: auto;
     padding: 1.5rem 10rem;
     /*configurando a nav do header deixando alinhado com row*/
@@ -185,18 +185,22 @@ video{
 background-color: #241A1C;
 }
 @media screen and (min-width: 300px) and (max-width: 900px){
-
+   
     ul{
        display: flex;
        flex-direction: row;
-        margin: 2px;
-        gap: 0.005rem;
+       justify-content: center;
+       gap: 0.005rem;
+       margin: auto;
+        
+        
 
     }
     li{
-        display: inline;
         font-family: Teko;
         font-size: 16px;
+        text-align: center;
+        
        
     }
   
@@ -205,20 +209,21 @@ background-color: #241A1C;
         /*configurando a nav do header deixando alinhado com row*/
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        margin-left: -66px;
-        margin-right: -100px;
+        
         
     }
     #imagemgusta{
-        height: 500px;
-        width: 350px;
+        height: 400px;
+        width: 450px;
         border-radius: 30px;
         border:solid #241A1C;
         margin-top: 9px;
         margin-bottom: 20px;
-        margin-right: -30px;
+        
+        
+       
      
         
     }
@@ -227,14 +232,18 @@ background-color: #241A1C;
         line-height: 10px;
         font-family: Epilogue;
         text-align: justify;
-        margin-right: -50px;
+       
     }
     p{
         text-align: center;
         margin-right: -50px;
+        
     }
     input{
         width: 400px;
+    }
+    form{
+        margin-left: 30px;
     }
 
     /*Banner da pagina 2 saiba mais */
@@ -243,26 +252,35 @@ background-color: #241A1C;
         background-repeat: no-repeat;
         background-position: center;
         background-color: white;
-        height: 60vh;
+        height: 40vh;
         width: 461px;
-        margin-left: -9px;
-        margin-right: -9px;
+        max-width:900px;
+        min-width: 556px;
+    
     }
 
     /*aqui em baixo configuração do banner da pagina01*/
-  
+    header{
+        display: flex;
+        justify-content: center;
+        height: 35vh;
+    
+    }
+   
     .hero{
-        width: 530px;
         background-position: center;
+        text-align: center;
+        max-width:900px;
+        min-width: 552px;
+        height: 40vh;
 
     }
-
 
     video{
         width: 445px;
         height: 400px;
         margin-top: 2px;
-        margin-right: -80px;
+        
         
     }
    h2{
@@ -287,18 +305,19 @@ background-color: #241A1C;
 #h2banner1{
     
     font-size: 20px;
-    line-height: 40px;
+    line-height: 30px;
     font-family: Epilogue;
     color: #F01E04;
     padding: 1rem;
     margin-left: -40px;
     
     
+    
 }
 #conteudo-banner{
-    
-    line-height: 40px;
-    font-size: 18px ;
+
+    line-height: 30px;
+    font-size: 16px ;
     max-width: 500px;
     font-family:Epilogue;
     padding: 2rem;
