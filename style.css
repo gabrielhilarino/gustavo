@@ -67,7 +67,7 @@ ul{
     text-align: center;
 }
 
-#h2banner1{
+.h2banner1{
     
     font-size: 30px;
     line-height: 40px;
@@ -77,7 +77,7 @@ ul{
     margin-left: 60px;
     
 }
-#conteudo-banner{
+.conteudo-banner{
     
     line-height: 30px;
     font-size: 20px ;
@@ -192,8 +192,11 @@ background-color: #241A1C;
     height: 30vh;
     
 }
-.hero{
+.hero {
     height: 40vh;
+    background-position: center;
+    background-image:none;
+    background-image: url(imagens/Background.png);
 }
 nav{
     margin: 5px;
@@ -230,17 +233,20 @@ a:hover{
     html{
         font-weight: 400;
     }
-    #h2banner1{
+    .h2banner1{
         margin-left: 2px;
         
     }
-    #conteudo-banner{
+    .conteudo-banner{
         margin-left: 2px;
     }
     #imagemgusta{
+        margin-right: -8px;
         width: 468px;
         height: 500px;
         margin-bottom: 22px;
+        border-radius: 2px;
+        margin-top: -3px;
     }
     h2{
         font-size: 30px;
@@ -253,13 +259,12 @@ a:hover{
       text-align: center;
     }
     input{
-      margin-left: 10px;
       width: 40vh;
       text-align: center;
     }
     form [type="submit"]{
        width: 40vh;
-       margin-left: 10px;
+       
     }
     .hero2{
         height: 40vh;
