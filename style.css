@@ -181,8 +181,9 @@ background-color: #241A1C;
 }
 @media screen and (min-width: 300px) and (max-width: 900px){
    body{
-    margin:0;
+    margin:0 ,0;
     padding: 0;
+    
    }
    header{
     display: flex;
@@ -256,6 +257,10 @@ a:hover{
       width: 40vh;
       text-align: center;
     }
+    form [type="submit"]{
+       width: 40vh;
+       margin-left: 10px;
+    }
     .hero2{
         height: 40vh;
     }
@@ -270,6 +275,7 @@ a:hover{
         align-items: center;
         margin-left: 30%;
     }
+   
     
 
 }
